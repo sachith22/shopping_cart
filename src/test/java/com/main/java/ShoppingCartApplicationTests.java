@@ -25,10 +25,10 @@ class ShoppingCartApplicationTests {
     void testAddNewUser() {
         boolean status;
         ResponseDto userDto1 = createUser("Joy","Root","joy123", "123456", "joy@aol.com");
-        status = userDto1.getStatus().equalsIgnoreCase(ResponseStatus.success.toString());
+        status = userDto1.getStatus().equalsIgnoreCase(ResponseStatus.SUCCESS.toString());
         assertTrue(status);
         ResponseDto userDto2 =  createUser("John", "Kite", "kite123", "654321", "kite@aol.com");
-        status = userDto2.getStatus().equalsIgnoreCase(ResponseStatus.success.toString());
+        status = userDto2.getStatus().equalsIgnoreCase(ResponseStatus.SUCCESS.toString());
         assertTrue(status);
     }
 

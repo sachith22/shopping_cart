@@ -14,7 +14,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class AuthenticationService {
 
-    private static Logger LOGGER = LoggerFactory.getLogger(AuthenticationService.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(AuthenticationService.class);
 
     @Autowired
     TokenRepo repository;

@@ -1,15 +1,15 @@
 package com.service.impl;
 
-import com.common.Constants;
 import com.dto.CartItemDto;
 import com.entities.Cart;
 import com.entities.CartItem;
 import com.entities.Product;
 import com.entities.User;
-import com.repository.cache.MasterDataCache;
+import com.repository.ProductRepo;
 import com.service.CartService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import javax.transaction.Transactional;
@@ -19,12 +19,16 @@ import java.util.*;
 @Transactional
 public class CartServiceImpl implements CartService {
 
-    private static Logger LOGGER = LoggerFactory.getLogger(CartServiceImpl.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(CartServiceImpl.class);
+
+    @Autowired
+    private ProductRepo productRepo;
 
     @Override
     public Cart addToCart(Cart cart, CartItemDto cartItemDto, User user) {
         Map<String, CartItem> cartItemMap = new HashMap<>();
-        List<?> productList = MasterDataCache.getDataMap(Constants.PRODUCTS);
+
+        List<Product> productList = productRepo.findAll();
         CartItem cartItem = null;
         Product product = null;
 
@@ -69,7 +73,7 @@ public class CartServiceImpl implements CartService {
                     cart.setTotalVAT(calculateVATAmount(cart));
                 }
             } else {
-                // must validate in future
+                //TODO validate in future
                 LOGGER.info("Product item not found");
             }
         }
@@ -98,7 +102,7 @@ public class CartServiceImpl implements CartService {
      * @return totalShipmentCost
      */
     private Double calculateShipmentCost(Cart cart) {
-        //must implement logic as business requirement
+        //TODO must implement logic as business requirement
 
         return (double) 7;
     }
@@ -109,7 +113,7 @@ public class CartServiceImpl implements CartService {
      * @return totalVATAmount
      */
     private Double calculateVATAmount(Cart cart) {
-        //must implement logic as business requirement
+        //TODO must implement logic as business requirement
 
         return (double) 10;
     }

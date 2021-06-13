@@ -28,7 +28,7 @@ import static com.common.Constants.USER_CREATED;
 @Transactional
 public class UserServiceImpl implements UserService {
 
-    private static Logger LOGGER = LoggerFactory.getLogger(UserServiceImpl.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(UserServiceImpl.class);
 
     @Autowired
     private final UserRepo userRepo;
@@ -67,7 +67,7 @@ public class UserServiceImpl implements UserService {
             // save token in database
             authenticationService.saveConfirmationToken(authenticationToken);
             // success
-            return new ResponseDto(ResponseStatus.success.toString(), USER_CREATED);
+            return new ResponseDto(ResponseStatus.SUCCESS.toString(), USER_CREATED);
         } catch (Exception e) {
             throw new CustomException(e.getMessage());
         }

@@ -10,6 +10,4 @@ public class Constants {
     public static final String PRODUCT_CREATED = "Product created successfully";
     public static final String PRODUCT_ALREADY_EXIST = "Product already exist";
 
-    public static final String PRODUCTS = "PRODUCTS";
-
 }

@@ -5,7 +5,11 @@ import com.entities.Product;
 import com.exceptions.CustomException;
 import com.service.ProductService;
 import io.swagger.annotations.ApiOperation;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
 
 /**
  * This is product controller class
@@ -23,7 +27,6 @@ public class ProductController {
 
     /**
      * Add product method
-     *
      * @param product
      * @return ResponseDto
      * @throws CustomException
@@ -33,5 +36,11 @@ public class ProductController {
     public ResponseDto createProduct(@RequestBody Product product) throws CustomException {
 
         return productService.createProduct(product);
+    }
+
+    @GetMapping("/all")
+    public ResponseEntity<List<Product>> getProducts() {
+        List<Product> body = productService.findAll();
+        return new ResponseEntity<List<Product>>(body, HttpStatus.OK);
     }
 }
