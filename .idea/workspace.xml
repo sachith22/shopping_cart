@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="02f45555-8af9-4529-9717-344b2d315271" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Users\sachi\.m2\wrapper\dists\apache-maven-3.8.1-bin\2l5mhf2pq2clrde7f7qp1rdt5m\apache-maven-3.8.1" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1to548PLR8qm4ARL1X7jmaRXA4c" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.utils" />
+      <recent name="com.dto" />
+      <recent name="com.exceptions" />
+      <recent name="com.configuration" />
+      <recent name="com.repository" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sachi\Desktop\gapstars_interview\Shopping_Cart" />
+      <recent name="C:\Users\sachi\Desktop\gapstars_interview\Shopping_Cart\src\main\java\com\dto" />
+      <recent name="C:\Users\sachi\Desktop\gapstars_interview\Shopping_Cart\src\main\java\com" />
+      <recent name="C:\Users\sachi\Desktop\gapstars_interview\Shopping_Cart\src\main\java\com\repository" />
+      <recent name="C:\Users\sachi\Desktop\gapstars_interview\Shopping_Cart\src\main\java\com\entity" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ShoppingCartApplicationTests.testAddNewUser">
+    <configuration name="ShoppingCartApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Shopping_Cart" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.main.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.main.java" />
+      <option name="MAIN_CLASS_NAME" value="com.main.java.ShoppingCartApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShoppingCartApplicationTests.testAddNewUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Shopping_Cart" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.main.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.main.java" />
+      <option name="MAIN_CLASS_NAME" value="com.main.java.ShoppingCartApplicationTests" />
+      <option name="METHOD_NAME" value="testAddNewUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShoppingCartApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Shopping_Cart" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ShoppingCartApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ShoppingCartApplicationTests.testAddNewUser" />
+        <item itemvalue="JUnit.ShoppingCartApplicationTests" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="02f45555-8af9-4529-9717-344b2d315271" name="Default Changelist" comment="" />
+      <created>1623422410076</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1623422410076</updated>
+      <workItem from="1623422411966" duration="14667000" />
+      <workItem from="1623468236835" duration="510000" />
+      <workItem from="1623469245197" duration="58839000" />
+      <workItem from="1623554093127" duration="13133000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="527" y="18" key="#com.intellij.ide.util.MemberChooser" timestamp="1623521611257">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="527" y="18" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1623521611257" />
+    <state x="388" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1623506151383">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="388" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1623506151383" />
+    <state x="433" y="97" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1623498644807">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="433" y="97" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1623498644807" />
+    <state x="464" y="42" key="#xdebugger.evaluate" timestamp="1623575339017">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="464" y="42" key="#xdebugger.evaluate/0.0.1536.824@0.0.1536.824" timestamp="1623575339017" />
+    <state width="484" height="546" key="DebuggerActiveHint" timestamp="1623575314162">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="484" height="546" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1623575314162" />
+    <state width="1481" height="238" key="GridCell.Tab.0.bottom" timestamp="1623575351437">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1481" height="238" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1623575351437" />
+    <state width="1481" height="238" key="GridCell.Tab.0.center" timestamp="1623575351437">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1481" height="238" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1623575351437" />
+    <state width="1481" height="238" key="GridCell.Tab.0.left" timestamp="1623575351437">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1481" height="238" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1623575351437" />
+    <state width="1481" height="238" key="GridCell.Tab.0.right" timestamp="1623575351437">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1481" height="238" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1623575351437" />
+    <state width="1481" height="238" key="GridCell.Tab.1.bottom" timestamp="1623575351437">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1481" height="238" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1623575351437" />
+    <state width="1481" height="238" key="GridCell.Tab.1.center" timestamp="1623575351437">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1481" height="238" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1623575351437" />
+    <state width="1481" height="238" key="GridCell.Tab.1.left" timestamp="1623575351437">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1481" height="238" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1623575351437" />
+    <state width="1481" height="238" key="GridCell.Tab.1.right" timestamp="1623575351437">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1481" height="238" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1623575351437" />
+    <state width="1481" height="238" key="GridCell.Tab.2.bottom" timestamp="1623574658256">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1481" height="238" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1623574658256" />
+    <state width="1481" height="238" key="GridCell.Tab.2.center" timestamp="1623574658256">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1481" height="238" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1623574658256" />
+    <state width="1481" height="238" key="GridCell.Tab.2.left" timestamp="1623574658256">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1481" height="238" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1623574658256" />
+    <state width="1481" height="238" key="GridCell.Tab.2.right" timestamp="1623574658256">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1481" height="238" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1623574658256" />
+    <state x="183" y="0" key="Maven.ArtifactSearchDialog" timestamp="1623482484465">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="183" y="0" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1623482484465" />
+    <state x="411" y="79" width="714" height="666" key="find.popup" timestamp="1623562073126">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="411" y="79" width="714" height="666" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1623562073126" />
+    <state x="542" y="124" key="refactoring.ChangeSignatureDialog" timestamp="1623516863826">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="542" y="124" key="refactoring.ChangeSignatureDialog/0.0.1536.824@0.0.1536.824" timestamp="1623516863825" />
+    <state x="341" y="183" key="run.anything.popup" timestamp="1623562753505">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="341" y="183" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1623562753505" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/service/impl/UserServiceImpl.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/main/java/ShoppingCartApplicationTests.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/main/java/ShoppingCartApplicationTests.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/service/impl/UserServiceImpl.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

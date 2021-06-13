@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.main.java.controller.UserControllerTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 21.019 s <<< FAILURE! - in com.main.java.controller.UserControllerTest
+testCreateUser  Time elapsed: 0.627 s  <<< ERROR!
+java.lang.NullPointerException
+	at com.main.java.controller.UserControllerTest.testCreateUser(UserControllerTest.java:23)
+
