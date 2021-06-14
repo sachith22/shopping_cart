@@ -6,9 +6,8 @@
 
 1. Open/import application using IDE. ( like Intellij )
 2. Go to src/main/resources/application.properties file and change configurations as your local environment. Use MySQL database.
-3. Create an empty MySQL database called `shopping_db` or change as you required in application.properties file.
-4. Run the application.
-5. After starting application, go to http://localhost:8080/swagger-ui/index.html
+3. Run the application.
+4. After starting application, go to http://localhost:8080/swagger-ui/index.html
 
 # implemented features
 
