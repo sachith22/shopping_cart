@@ -65,7 +65,7 @@ public class CartController {
      */
     @ApiOperation(value = "Calculate cart")
     @PostMapping("calculate")
-    public ResponseEntity<Cart> reCalculateCart(HttpSession httpSession, @RequestBody CartItemDto cartItemDto, @RequestParam("token") String token) {
+    public ResponseEntity<Cart> calculateCart(HttpSession httpSession, @RequestBody CartItemDto cartItemDto, @RequestParam("token") String token) {
         Cart cart = null;
         authenticationService.authenticate(token);
         User user = authenticationService.getUser(token);

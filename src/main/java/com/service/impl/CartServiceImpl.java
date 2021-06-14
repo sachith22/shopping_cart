@@ -7,6 +7,7 @@ import com.entities.Product;
 import com.entities.User;
 import com.repository.ProductRepo;
 import com.service.CartService;
+import com.service.ProductService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,13 +23,13 @@ public class CartServiceImpl implements CartService {
     private static final Logger LOGGER = LoggerFactory.getLogger(CartServiceImpl.class);
 
     @Autowired
-    private ProductRepo productRepo;
+    private ProductService productService;
 
     @Override
     public Cart addToCart(Cart cart, CartItemDto cartItemDto, User user) {
         Map<String, CartItem> cartItemMap = new HashMap<>();
 
-        List<Product> productList = productRepo.findAll();
+        List<Product> productList = productService.findAll();
         CartItem cartItem = null;
         Product product = null;
 
