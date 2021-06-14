@@ -32,8 +32,10 @@
 
 1. Validate missing validations.
 2. Implement category for products.
-3. Implement address for the users.
-4. Implement front-end application for shopping cart.
+3. Manage inventory
+4. Add payment module
+4. Implement address for the users.
+5. Implement front-end application for shopping cart.
 
 #end
 
