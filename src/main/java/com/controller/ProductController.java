@@ -38,6 +38,10 @@ public class ProductController {
         return productService.createProduct(product);
     }
 
+    /**
+     * Get product list
+     * @return list of products
+     */
     @GetMapping("/all")
     public ResponseEntity<List<Product>> getProducts() {
         List<Product> body = productService.findAll();

@@ -25,7 +25,7 @@
 4. Sign-in to both users in separately.
 5. Go to "Add to cart" in swagger ui for one sign in user, and add a product with 'productCode', 'quantity' with generated 'token' when user created. 
 6. Then, Add two products to other user shopping cart with different quantities.
-7. Check both Shopping cart. 
+7. Check both Shopping cart. (use 'Calculate the cart' swagger url) Use parameter 'token' for the check both user's shopping cart
 
 # Future developments 
 
@@ -34,8 +34,9 @@
 3. Manage inventory
 4. Add order module
 5. Add payment module
-6. Implement address(shipping, billing) for the users.
-7. Implement front-end application for shopping cart.
+6. Coupon for discount
+7. Implement address(shipping, billing) for the users.
+8. Implement front-end application for shopping cart.
 .
 .
 .

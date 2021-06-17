@@ -21,6 +21,7 @@ import javax.transaction.Transactional;
 import javax.xml.bind.DatatypeConverter;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
+import java.util.List;
 
 import static com.common.Constants.USER_CREATED;
 
@@ -100,6 +101,11 @@ public class UserServiceImpl implements UserService {
         }
 
         return new SignInResponseDto("success", token.getToken());
+    }
+
+    @Override
+    public List<User> findAll() {
+        return userRepo.findAll();
     }
 
     /**

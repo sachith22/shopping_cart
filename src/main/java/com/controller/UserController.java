@@ -3,12 +3,18 @@ package com.controller;
 import com.dto.ResponseDto;
 import com.dto.user.SignInDto;
 import com.dto.user.SignInResponseDto;
+import com.entities.Product;
 import com.entities.User;
 import com.exceptions.CustomException;
 import com.service.UserService;
 
 import io.swagger.annotations.ApiOperation;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+
+import javax.jws.soap.SOAPBinding;
+import java.util.List;
 
 /**
  * This is User Controller
@@ -38,7 +44,6 @@ public class UserController {
 
     /**
      * User Sign-in method
-     *
      * @param signInDto
      * @return signInResponseDto with token
      * @throws CustomException
@@ -48,5 +53,15 @@ public class UserController {
     public SignInResponseDto signIn(@RequestBody SignInDto signInDto) throws CustomException {
 
         return userService.signIn(signInDto);
+    }
+
+    /**
+     * get all users
+     * @return list of users
+     */
+    @GetMapping("/all")
+    public ResponseEntity<List<User>> getUsers() {
+        List<User> body = userService.findAll();
+        return new ResponseEntity<List<User>>(body, HttpStatus.OK);
     }
 }

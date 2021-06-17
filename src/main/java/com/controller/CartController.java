@@ -10,6 +10,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 
 /**
@@ -23,22 +24,23 @@ public class CartController {
 
     private final AuthenticationService authenticationService;
 
-    public CartController(CartService cartService, AuthenticationService authenticationService) {
+    private final HttpSession httpSession;
+
+    public CartController(CartService cartService, AuthenticationService authenticationService, HttpSession httpSession) {
         this.cartService = cartService;
         this.authenticationService = authenticationService;
+        this.httpSession = httpSession;
     }
 
     /**
-     * Add item to cart method
-     *
-     * @param httpSession
+     * Add item to cart
      * @param cartItemDto
      * @param token
      * @return cart
      */
     @ApiOperation(value = "Add to cart")
     @PostMapping("add")
-    public ResponseEntity<Cart> addToCart(HttpSession httpSession, @RequestBody CartItemDto cartItemDto, @RequestParam("token") String token) {
+    public ResponseEntity<Cart> addToCart(@RequestBody CartItemDto cartItemDto, @RequestParam("token") String token) {
         Cart cart = null;
         authenticationService.authenticate(token);
         User user = authenticationService.getUser(token);
@@ -56,23 +58,20 @@ public class CartController {
     }
 
     /**
-     * Re-calculate cart method
-     *
-     * @param httpSession
-     * @param cartItemDto
+     * Calculate cart
      * @param token
-     * @return cart
+     * @param request
+     * @return
      */
-    @ApiOperation(value = "Calculate cart")
+    @ApiOperation(value = "Calculate the cart")
     @PostMapping("calculate")
-    public ResponseEntity<Cart> calculateCart(HttpSession httpSession, @RequestBody CartItemDto cartItemDto, @RequestParam("token") String token) {
+    public ResponseEntity<Cart> calculateCart(@RequestParam("token") String token, HttpServletRequest request) {
         Cart cart = null;
         authenticationService.authenticate(token);
         User user = authenticationService.getUser(token);
-        if (user != null && httpSession != null) {
-            if (httpSession.getAttribute(user.getUsername()) != null) {
-                cart = cartService.addToCart((Cart) httpSession.getAttribute(user.getUsername()), cartItemDto, user);
-                httpSession.setAttribute(user.getUsername(), cart);
+        if (user != null && request.getSession() != null) {
+            if (request.getSession().getAttribute(user.getUsername()) != user.getUsername()) {
+                cart = (Cart) request.getSession().getAttribute(user.getUsername());
 
                 return new ResponseEntity<Cart>(cart, HttpStatus.OK);
             }
